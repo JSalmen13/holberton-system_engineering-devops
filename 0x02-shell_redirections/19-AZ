@@ -1,2 +1,2 @@
 #!/bin/bash
-tr "Ae" "Zc"
+tr -t A Z | tr -t c e
