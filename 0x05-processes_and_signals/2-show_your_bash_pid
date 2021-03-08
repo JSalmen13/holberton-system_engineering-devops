@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# display bash word in process.
+
+ps auxf | grep 'bash'
