@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Fix web stack
+# web stack debugging servers
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
+rm /run/nginx.pid
