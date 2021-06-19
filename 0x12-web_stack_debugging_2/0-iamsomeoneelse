@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Runs commannd
+
+sudo -H -u "$1" bash -c 'whoami'
